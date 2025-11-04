@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="lab2.css">
+  
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" class="display" placeholder="0" readonly id="display">
+    <div class="buttons" id="Btns">
+      <button class="btn" id="b7" onclick="concat(7)">7</button>
+      <button class="btn" id="b8" onclick="concat(8)">8</button>
+      <button class="btn" id="b9" onclick="concat(9)">9</button>
+      <button class="btn operator" id="divide" onclick="concat('/')">/</button>
+
+      <button class="btn" id="b4" onclick="concat(4)">4</button>
+      <button class="btn" id="b5" onclick="concat(5)">5</button>
+      <button class="btn" id="b6" onclick="concat(6)">6</button>
+      <button class="btn operator" id="multiply" onclick="concat('*')">*</button>
+
+      <button class="btn" id="b1" onclick="concat(1)">1</button>
+      <button class="btn" id="b2" onclick="concat(2)">2</button>
+      <button class="btn" id="b3" onclick="concat(3)">3</button>
+      <button class="btn operator" id="minus" onclick="concat('-')">-</button>
+
+      <button class="btn" id="b0" onclick="concat('0')">0</button>
+      <button class="btn" id="dot" onclick="concat('.')">.</button>
+      <button class="btn equal" id="calc" onclick="answr()">=</button>
+      <button class="btn operator" id="add" onclick="concat('+')">+</button>
+
+      <button class="btn clear" id="clr" onclick="clr11()">C</button>
+    </div>
+  </div>
+  <script src="lab2.js"></script>
+</body>
+
+</html>

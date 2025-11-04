@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: rgba(201, 203, 246, 0.486);
+    
+}
+
+
+
+.div1{
+    align-self: center;
+    border-radius: 30px;
+    width: 300px;
+    display:inline-block;
+    background-color: white;
+    margin: 2rem;
+}
+
+.div1{
+    align-self: center;
+    border-radius: 30px;
+    width: 300px;
+    display:inline-block;
+    background-color: white;
+    margin: 2rem;
+}
+
+button{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+li{ 
+    border-radius: 30px;
+    display: block;
+    background-color:  rgba(201, 203, 246, 0.486);
+    width: 70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+}
