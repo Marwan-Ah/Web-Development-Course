@@ -43,3 +43,5 @@ app.get("/posts/:id/comments", (req,res) => {
     }
     res.json(post.comments);
 })
+
+app.listen("3000")
